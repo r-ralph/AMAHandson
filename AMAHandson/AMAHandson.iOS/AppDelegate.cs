@@ -22,7 +22,10 @@ namespace AMAHandson.iOS
 		//
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
-			global::Xamarin.Forms.Forms.Init ();
+		    // Initialize Azure Mobile Apps
+		    Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+
+            global::Xamarin.Forms.Forms.Init ();
 			LoadApplication (new AMAHandson.App ());
 
 			return base.FinishedLaunching (app, options);

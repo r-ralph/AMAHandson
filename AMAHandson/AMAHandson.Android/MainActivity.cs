@@ -19,7 +19,10 @@ namespace AMAHandson.Droid
 
 			base.OnCreate (bundle);
 
-			global::Xamarin.Forms.Forms.Init (this, bundle);
+		    // Initialize Azure Mobile Apps
+		    Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+
+            global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new AMAHandson.App ());
 		}
 	}

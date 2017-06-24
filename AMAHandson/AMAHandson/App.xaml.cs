@@ -13,7 +13,7 @@ namespace AMAHandson
 		{
 			InitializeComponent();
 
-			MainPage = new AMAHandson.MainPage();
+			MainPage = new AMAHandson.TodoList();
 		}
 
 		protected override void OnStart ()

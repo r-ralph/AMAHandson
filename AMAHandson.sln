@@ -14,6 +14,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		AMAHandson\AMAHandson\AMAHandson.projitems*{09a06a45-a484-4561-9767-180d4a88108c}*SharedItemsImports = 4
+		AMAHandson\AMAHandson\AMAHandson.projitems*{22215a9d-f99d-4e8f-be21-7fc52544d3e2}*SharedItemsImports = 4
 		AMAHandson\AMAHandson\AMAHandson.projitems*{8baa81c0-84e4-49aa-b106-950223f6a377}*SharedItemsImports = 13
 		AMAHandson\AMAHandson\AMAHandson.projitems*{eb5f2fe1-a8d1-45e6-874c-dbebaad7c4a3}*SharedItemsImports = 4
 	EndGlobalSection
@@ -185,6 +186,8 @@ Global
 		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.AppStore|x86.Build.0 = Release|x86
 		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.AppStore|x86.Deploy.0 = Release|x86
 		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.Debug|Any CPU.Build.0 = Debug|x86
+		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.Debug|ARM.ActiveCfg = Debug|ARM
 		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.Debug|ARM.Build.0 = Debug|ARM
 		{22215A9D-F99D-4E8F-BE21-7FC52544D3E2}.Debug|ARM.Deploy.0 = Debug|ARM
